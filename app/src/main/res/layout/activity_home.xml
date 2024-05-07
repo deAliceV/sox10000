@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    android:orientation="vertical"
+    tools:context=".HomeActivity"
+    android:layout_weight="2"
+    android:background="@color/background">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="450dp"
+        android:layout_height="166dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:background="@color/background"
+        android:src="@drawable/img_1"
+
+        />
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+
+    android:orientation="horizontal"
+     android:layout_weight="3">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_margin="6dp"
+
+                android:layout_width="225dp"
+                android:layout_height="225dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/black">
+
+            </androidx.cardview.widget.CardView>
+            <ImageView
+                android:id="@+id/btnSubir"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="right"
+                android:layout_margin="2dp"
+                android:src="@drawable/img_3" />
+
+        </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_weight="1"
+        android:orientation="vertical">
+            <EditText
+                android:id="@+id/lblNom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:layout_weight="1"
+                android:text="Nombre" />
+
+            <EditText
+                android:id="@+id/txtNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                />
+
+            <EditText
+                android:id="@+id/lblColor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_weight="1"
+                android:inputType="text"
+                android:text="Color" />
+
+            <EditText
+                android:id="@+id/txtColor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                />
+            <EditText
+                android:id="@+id/lblCant"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:layout_weight="1"
+                android:text="Cantidad" />
+
+            <EditText
+                android:id="@+id/txtCantidad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+
+                />
+
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:layout_weight="1"
+        >
+
+
+        <RadioGroup
+            android:id="@+id/rbtgMedias"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            >
+
+            <RadioButton
+                android:id="@+id/rbtnBaleta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="baleta"
+                android:background="@color/background"
+                />
+
+            <RadioButton
+                android:id="@+id/rbtnBeisbolera"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="beisbolera"
+                android:background="@color/background"/>
+
+            <RadioButton
+                android:id="@+id/rbtnLarga"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Larga" />
+
+            <RadioButton
+                android:id="@+id/rbtnTobillera"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Tobillera" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnComprar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="5dp"
+        android:background="@color/botton"
+        android:foregroundGravity="bottom"
+
+        android:text="comprar"
+
+        android:textColor="@color/white" />
+    <Button
+        android:id="@+id/btnBuscar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@color/botton"
+        android:foregroundGravity="bottom"
+        android:text="Buscar"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnModificar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="5dp"
+        android:background="@color/botton"
+        android:foregroundGravity="bottom"
+
+        android:text="Modificar"
+
+        android:textColor="@color/white" />
+    <Button
+        android:id="@+id/btnEliminar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="5dp"
+        android:background="@color/botton"
+        android:foregroundGravity="bottom"
+
+        android:text="Eliminar"
+
+        android:textColor="@color/white" />
+
+</LinearLayout>

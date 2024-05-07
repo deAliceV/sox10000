@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "381576896178",
+    "project_id": "soxio-3c76a",
+    "storage_bucket": "soxio-3c76a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:381576896178:android:79fb973591fa558e4673ab",
+        "android_client_info": {
+          "package_name": "com.example.soxios"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlGRY_XdnLUF4pufmOpag_18yh8xXoHoE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
